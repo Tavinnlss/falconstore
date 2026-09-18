@@ -21,7 +21,6 @@ const benefits = [
         <a class="btn btn-blue" :href="store.vipGroupUrl" target="_blank" rel="noopener">
           Entrar no grupo VIP
         </a>
-        <p class="note">Link provisório — depois a loja cola o convite certo aqui.</p>
       </div>
 
       <ul class="benefits">

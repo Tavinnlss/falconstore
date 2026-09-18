@@ -8,8 +8,8 @@ export const store = {
   phoneDisplay: '(31) 9 9670-1969',
   whatsappNumber: '5531996701969',
   vipGroupUrl: 'https://chat.whatsapp.com/BamTMGMHg4d3y7XWtMNsEa?s=cl&p=i&mlu=4',
-  address: 'Rua Exemplo, 123 — Centro, Teixeiras — MG',
-  mapsQuery: 'Teixeiras, MG, Brasil',
+  address: 'Av. Marechal Castelo Branco, 76 - Centro, Teixeiras - MG, 36580-000, Brasil',
+  mapsQuery: 'Av. Marechal Castelo Branco, 76 - Centro, Teixeiras - MG, 36580-000',
   instagram: 'https://www.instagram.com/_falconstoree/',
 }
 

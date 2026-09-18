@@ -14,7 +14,7 @@ const props = defineProps({
 const track = ref(null)
 
 const ask = (item) =>
-  whatsappLink(`Fala! Quero saber sobre ${item.name} (${item.price})`)
+  whatsappLink(`Fala! Quero saber sobre ${item.name} (a partir de ${item.price})`)
 
 const scrollByCards = (dir) => {
   const el = track.value
@@ -48,7 +48,8 @@ const sectionClass = computed(() => ({ alt: props.tone === 'alt' }))
             </div>
             <div class="info">
               <h3>{{ item.name }}</h3>
-              <p>{{ item.price }}</p>
+              <p class="desc">{{ item.description }}</p>
+              <p class="price"><span class="priceStart">A partir deㅤ</span>{{ item.price }}</p>
               <a class="btn btn-ghost" :href="ask(item)" target="_blank" rel="noopener">Pedir no Whats</a>
             </div>
           </article>
@@ -129,19 +130,41 @@ const sectionClass = computed(() => ({ alt: props.tone === 'alt' }))
 }
 
 .info {
+  display: flex;
+  flex-direction: column;
   padding: 16px;
+  min-height: 168px;
 }
 
 h3 {
   font-size: 16px;
   font-weight: 600;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
-.info p {
+.desc {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+  font-weight: 400;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.price {
   color: var(--blue-hot);
   font-weight: 700;
+  font-size: 18px;
   margin-bottom: 14px;
+}
+
+.priceStart{
+  color: gray;
+  font-size: 14px;
 }
 
 .info .btn {

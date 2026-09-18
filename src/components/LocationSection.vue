@@ -2,10 +2,12 @@
 import { computed } from 'vue'
 import { store } from '../config/store'
 
+const mapsQuery = store.mapsQuery || store.address
 const mapsSrc = computed(
   () =>
-    `https://maps.google.com/maps?q=${encodeURIComponent(store.mapsQuery)}&z=15&output=embed`,
+    `https://maps.google.com/maps?q=${encodeURIComponent(mapsQuery)}&z=17&output=embed`,
 )
+const mapsLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapsQuery)}`
 </script>
 
 <template>
@@ -17,7 +19,7 @@ const mapsSrc = computed(
           <h2>{{ store.locationHook }}</h2>
         </div>
         <p>
-          Passa na loja, prova, escolhe e leva. O endereço abaixo é placeholder — depois a gente troca pelo ponto certo.
+          Passa na loja, prova, escolhe e leva. Tá no Centro de Teixeiras, na Av. Marechal Castelo Branco.
         </p>
       </div>
 
@@ -25,6 +27,7 @@ const mapsSrc = computed(
         <div class="info">
           <h3>Onde a gente tá</h3>
           <p>{{ store.address }}</p>
+          <a class="maps-link" :href="mapsLink" target="_blank" rel="noopener">Abrir no Google Maps</a>
           <ul>
             <li>Entrega para todo o Brasil</li>
             <li>Aceita todas as formas de pagamento</li>
@@ -71,7 +74,19 @@ h3 {
 
 .info > p {
   color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.maps-link {
+  display: inline-block;
+  color: var(--blue-hot);
+  font-size: 14px;
+  font-weight: 600;
   margin-bottom: 22px;
+}
+
+.maps-link:hover {
+  text-decoration: underline;
 }
 
 ul {
