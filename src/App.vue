@@ -37,7 +37,7 @@ import { clothes, sneakers, glasses } from './data/catalog'
       id="acessorios"
       eyebrow="Detalhe que fecha"
       title="Acessórios"
-      subtitle="Acessório certo muda o recado. Modelos pra sol, pra role e pra se diferenciar."
+      subtitle="Acessório certo muda o recado."
       :items="glasses"
     />
     <StorePerks />

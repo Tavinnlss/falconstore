@@ -13,5 +13,5 @@ export const store = {
   instagram: 'https://www.instagram.com/_falconstoree/',
 }
 
-export const whatsappLink = (text = 'Fala, FALCON! Vim pelo site quero saber mais 🔥') =>
+export const whatsappLink = (text = 'Fala pessoal! Vim pelo site quero saber mais sobre os produtos, podem me ajudar ? ') =>
   `https://wa.me/${store.whatsappNumber}?text=${encodeURIComponent(text)}`

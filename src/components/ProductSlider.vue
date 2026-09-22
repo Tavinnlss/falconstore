@@ -14,7 +14,7 @@ const props = defineProps({
 const track = ref(null)
 
 const ask = (item) =>
-  whatsappLink(`Fala! Quero saber sobre ${item.name} (a partir de ${item.price})`)
+  whatsappLink(`Fala pessoal! Quero saber sobre ${item.name}, podem me ajuda?`)
 
 const scrollByCards = (dir) => {
   const el = track.value
@@ -147,11 +147,6 @@ h3 {
   font-size: 13px;
   line-height: 1.45;
   font-weight: 400;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  flex: 1;
   margin-bottom: 10px;
 }
 
@@ -164,7 +159,7 @@ h3 {
 
 .priceStart{
   color: gray;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .info .btn {

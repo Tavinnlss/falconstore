@@ -20,9 +20,9 @@
       <div class="grid">
         <article class="card">
           <header>
-            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&h=200&q=80" alt="Camila R." />
+            <img src="/img/users/user01.jpeg" />
             <div>
-              <strong>Camila R.</strong>
+              <strong>Gabriel Maia</strong>
               <time>12 ago. 2026</time>
             </div>
             <span class="badge">Compra verificada</span>
@@ -30,14 +30,14 @@
           <div class="stars" aria-label="5 de 5">
             <span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span>
           </div>
-          <p>Moletom chegou rápido e o caimento é exatamente o da foto. Já indiquei pra galera.</p>
+          <p>Curti demais a qualidade das peças. Chegou rápido e o tamanho ficou certinho. Com certeza vou comprar de novo.</p>
         </article>
 
         <article class="card">
           <header>
-            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&h=200&q=80" alt="Lucas M." />
+            <img src="/img/users/user02.jpeg" alt="Lucas M." />
             <div>
-              <strong>Lucas M.</strong>
+              <strong>Leo Medina</strong>
               <time>03 ago. 2026</time>
             </div>
             <span class="badge">Compra verificada</span>
@@ -45,14 +45,14 @@
           <div class="stars" aria-label="5 de 5">
             <span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span>
           </div>
-          <p>Tênis confortável pra usar o dia inteiro. Atendimento no Whats foi de boa, sem enrolação.</p>
+          <p>Produtos muito bons e com bastante variedade. Peguei uma camiseta e uma bermuda e gostei bastante da qualidade.</p>
         </article>
 
         <article class="card">
           <header>
-            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&h=200&q=80" alt="Bianca S." />
+            <img src="/img/users/user03.jpeg" alt="Bianca S." />
             <div>
-              <strong>Bianca S.</strong>
+              <strong>Henrique Silva</strong>
               <time>28 jul. 2026</time>
             </div>
             <span class="badge">Compra verificada</span>
@@ -60,14 +60,14 @@
           <div class="stars" aria-label="4 de 5">
             <span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span><span>★</span>
           </div>
-          <p>Óculos lindo, embalagem caprichada. Só achei o prazo um pouco maior, mas valeu.</p>
+          <p>Gostei muito da loja. As peças são estilosas, o preço é bom e o atendimento foi bem tranquilo.</p>
         </article>
 
         <article class="card">
           <header>
-            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&h=200&q=80" alt="Rafael T." />
+            <img src="/img/users/user04.jpeg" alt="Rafael T." />
             <div>
-              <strong>Rafael T.</strong>
+              <strong>Samuel Gomes.</strong>
               <time>19 jul. 2026</time>
             </div>
             <span class="badge">Compra verificada</span>
@@ -75,14 +75,14 @@
           <div class="stars" aria-label="5 de 5">
             <span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span>
           </div>
-          <p>Peças com cara de loja grande, preço justo. O grupo VIP avisou a promoção e eu peguei.</p>
+          <p>Primeira compra e já virei cliente. Produto chegou certinho, bem embalado e a qualidade surpreendeu.</p>
         </article>
 
         <article class="card">
           <header>
-            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=200&h=200&q=80" alt="Júlia P." />
+            <img src="/img/users/user05.jpeg" alt="Júlia P." />
             <div>
-              <strong>Júlia P.</strong>
+              <strong>Otávio Luiz</strong>
               <time>08 jul. 2026</time>
             </div>
             <span class="badge">Compra verificada</span>
@@ -90,14 +90,14 @@
           <div class="stars" aria-label="5 de 5">
             <span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span>
           </div>
-          <p>Comprei a jaqueta e o tênis. Combinou tudo. Vou repetir na próxima reposição.</p>
+          <p>Gostei bastante dos modelos e principalmente da variedade de tamanhos. A peça vestiu muito bem.</p>
         </article>
 
         <article class="card">
           <header>
-            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&h=200&q=80" alt="Diego A." />
+            <img src="/img/users/user06.jpeg" alt="Diego A." />
             <div>
-              <strong>Diego A.</strong>
+              <strong>Paulo Victor</strong>
               <time>22 jun. 2026</time>
             </div>
             <span class="badge">Compra verificada</span>
@@ -105,7 +105,7 @@
           <div class="stars" aria-label="4 de 5">
             <span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span><span>★</span>
           </div>
-          <p>Qualidade boa e entrega pra outro estado sem dor de cabeça. Recomendo.</p>
+          <p>Loja top! Comprei um conjunto e um boné, gostei muito dos dois. Qualidade boa e entrega rápida.</p>
         </article>
       </div>
     </div>

@@ -5,8 +5,8 @@ import { store, whatsappLink } from '../config/store'
 <template>
   <footer class="foot">
     <div class="container row">
-      <div>
-        <p class="brand">{{ store.name }}</p>
+      <div class="footerlogo">
+        <img src="/img/FalconStore.png" alt="logo">
         <p class="tag">{{ store.tagline }}</p>
       </div>
       <nav>
@@ -73,5 +73,10 @@ nav a:hover {
   color: var(--graphite-mid);
   border-top: 1px solid var(--graphite);
   padding-top: 16px;
+}
+
+.footerlogo img{
+  width: 100%;
+  max-width: 400px;
 }
 </style>

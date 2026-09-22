@@ -8,7 +8,7 @@ import { store, whatsappLink } from '../config/store'
       <p class="eyebrow">Fala com a gente</p>
       <h2>Entra em contato</h2>
       <p class="lead">
-        Clica e já cai no WhatsApp da loja. Número provisório — depois vincula o oficial.
+        Clica e já cai no WhatsApp da loja.
       </p>
       <a class="btn btn-white" :href="whatsappLink()" target="_blank" rel="noopener">
         Chamar {{ store.phoneDisplay }}

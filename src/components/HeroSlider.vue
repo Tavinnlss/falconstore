@@ -64,7 +64,7 @@ onUnmounted(() => clearInterval(timer))
       <p class="lead">{{ slides[index].text }}</p>
       <div class="actions">
         <a class="btn btn-blue" :href="slides[index].href">{{ slides[index].cta }}</a>
-        <a class="btn btn-ghost" :href="whatsappLink('Quero ver o que tem na loja')" target="_blank" rel="noopener">
+        <a class="btn btn-ghost" :href="whatsappLink('Olá! Gostaria de saber mais sobre os produtos disponíveis na loja. Poderiam me ajudar?')" target="_blank" rel="noopener">
           Chama no Zap
         </a>
       </div>
@@ -82,7 +82,7 @@ onUnmounted(() => clearInterval(timer))
 
     <div class="ticker" aria-hidden="true">
       <div class="ticker-track">
-        <span v-for="n in 8" :key="n">a fonte do estilo que se diferencia · cola pra fonte · entrega Brasil ·</span>
+        <span v-for="n in 8" :key="n">a fonte do estilo que se diferencia · cola pra fonte · entregas para todo Brasil ·</span>
       </div>
     </div>
   </section>
