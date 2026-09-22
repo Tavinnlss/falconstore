@@ -49,7 +49,7 @@ const sectionClass = computed(() => ({ alt: props.tone === 'alt' }))
             <div class="info">
               <h3>{{ item.name }}</h3>
               <p class="desc">{{ item.description }}</p>
-              <p class="price"><span class="priceStart">A partir deㅤ</span>{{ item.price }}</p>
+              <p class="price"><span class="priceStart">A partir de</span>{{ item.price }}</p>
               <a class="btn btn-ghost" :href="ask(item)" target="_blank" rel="noopener">Pedir no Whats</a>
             </div>
           </article>
@@ -160,6 +160,7 @@ h3 {
 .priceStart{
   color: gray;
   font-size: 12px;
+  margin-right: 10px;
 }
 
 .info .btn {
