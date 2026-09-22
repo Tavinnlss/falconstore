@@ -158,7 +158,7 @@ h3 {
 }
 
 .priceStart{
-  color: red;
+  color: rgb(100, 100, 100);
   font-size: 12px;
   margin-right: 10px;
 }
