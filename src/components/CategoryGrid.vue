@@ -34,8 +34,7 @@ const categories = [
           <h2>Categorias</h2>
         </div>
         <p>
-          Três frentes, um estilo. Entra na que combina com o seu momento — ou
-          monta o combo inteiro.
+          Três frentes, um estilo. Entre na que combina com o seu momento.
         </p>
       </div>
 

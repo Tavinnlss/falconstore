@@ -41,7 +41,7 @@ const links = [
       </nav>
 
       <a class="btn btn-blue nav-cta" :href="whatsappLink()" target="_blank" rel="noopener">
-        Falar no Whats
+        Fale conosco
       </a>
 
       <button class="burger" :aria-expanded="menuOpen" aria-label="Menu" @click="menuOpen = !menuOpen">

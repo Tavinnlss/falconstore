@@ -14,7 +14,7 @@
           <p class="eyebrow">Quem já colou</p>
           <h2>Nossos clientes</h2>
         </div>
-        <p>Avaliações no estilo que você já conhece: foto, nota e o recado de quem comprou de verdade.</p>
+        <p>Avaliações de nossos clientes</p>
       </div>
 
       <div class="grid">
