@@ -6,6 +6,8 @@ import ProductSlider from './components/ProductSlider.vue'
 import StorePerks from './components/StorePerks.vue'
 import VipSection from './components/VipSection.vue'
 import ReviewsSection from './components/ReviewsSection.vue'
+import AboutSection from './components/AboutSection.vue'
+import PromoSection from './components/PromoSection.vue'
 import LocationSection from './components/LocationSection.vue'
 import ContactSection from './components/ContactSection.vue'
 import TheFooter from './components/TheFooter.vue'
@@ -43,6 +45,8 @@ import { clothes, sneakers, glasses } from './data/catalog'
     <StorePerks />
     <VipSection />
     <ReviewsSection />
+    <AboutSection />
+    <PromoSection />
     <LocationSection />
     <ContactSection />
   </main>

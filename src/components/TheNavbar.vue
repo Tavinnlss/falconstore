@@ -24,6 +24,8 @@ const links = [
   { href: '#acessorios', label: 'Acessórios' },
   { href: '#vip', label: 'Grupo VIP' },
   { href: '#clientes', label: 'Clientes' },
+  { href: '#sobre', label: 'Sobre' },
+  { href: '#promo', label: 'Desconto' },
   { href: '#local', label: 'Local' },
 ]
 </script>
