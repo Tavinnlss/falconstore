@@ -49,8 +49,8 @@ const sectionClass = computed(() => ({ alt: props.tone === 'alt' }))
             <div class="info">
               <h3>{{ item.name }}</h3>
               <p class="desc">{{ item.description }}</p>
-              <p class="price"><span class="priceStart">A partir deㅤ</span>{{ item.price }}</p>
-              <a class="btn btn-ghost" :href="ask(item)" target="_blank" rel="noopener">Pedir no Whats</a>
+              <p class="price"><span class="priceStart">A partir de:</span>{{ item.price }}</p>
+              <a class="btn btn-ghost" :href="ask(item)" target="_blank" rel="noopener">ENTRAR EM CONTATO</a>
             </div>
           </article>
         </div>
@@ -80,6 +80,7 @@ const sectionClass = computed(() => ({ alt: props.tone === 'alt' }))
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: minmax(240px, 280px);
+  align-items: stretch;
   gap: 16px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
@@ -92,6 +93,9 @@ const sectionClass = computed(() => ({ alt: props.tone === 'alt' }))
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   scroll-snap-align: start;
   background: #16161a;
   border: 1px solid var(--graphite);
@@ -132,8 +136,8 @@ const sectionClass = computed(() => ({ alt: props.tone === 'alt' }))
 .info {
   display: flex;
   flex-direction: column;
+  flex: 1;
   padding: 16px;
-  min-height: 168px;
 }
 
 h3 {
@@ -154,12 +158,13 @@ h3 {
   color: var(--blue-hot);
   font-weight: 700;
   font-size: 18px;
-  margin-bottom: 14px;
+  margin: auto 0 14px;
 }
 
 .priceStart{
-  color: gray;
+  color: rgb(100, 100, 100);
   font-size: 12px;
+  margin-right: 10px;
 }
 
 .info .btn {

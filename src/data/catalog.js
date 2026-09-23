@@ -43,10 +43,10 @@ export const clothes = [
   },
   {
     name: 'Bermudas Sarja',
-    description: '...',
+    description: 'Conforto e estilo para o dia a dia, com tecido de sarja, modelagem versátil e variedade de modelos e tamanhos.',
     price: 'R$ 99,99',
     tag: 'Casual',
-    image: '',
+    image: '/img/sarjafalcon.png',
   },
   {
     name: 'Bermudas Cargo',
@@ -113,7 +113,7 @@ export const sneakers = [
     description: 'Design moderno e conforto para acompanhar você em todos os momentos, com opções de modelos e tamanhos.',
     price: 'R$ 149,99',
     tag: 'Casual',
-    image: '',
+    image: '/img/adidasfalcon.png',
   },
 ]
 
@@ -130,7 +130,7 @@ export const glasses = [
     description: 'Estilo e personalidade para completar seu visual, com variedade de marcas, modelos, cores e estilos para todos os gostos.',
     price: 'R$ 99,99',
     tag: 'Visual',
-    image: '',
+    image: '/img/oculosfalcon.png',
   },
   {
     name: 'Cueca',

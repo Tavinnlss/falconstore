@@ -19,13 +19,13 @@ const mapsLink = `https://www.google.com/maps/search/?api=1&query=${encodeURICom
           <h2>{{ store.locationHook }}</h2>
         </div>
         <p>
-          Passa na loja, prova, escolhe e leva. Tá no Centro de Teixeiras, na Av. Marechal Castelo Branco.
+          Passa na loja, prova, escolhe e leva.
         </p>
       </div>
 
       <div class="panel">
         <div class="info">
-          <h3>Onde a gente tá</h3>
+          <h3>Onde estamos</h3>
           <p>{{ store.address }}</p>
           <a class="maps-link" :href="mapsLink" target="_blank" rel="noopener">Abrir no Google Maps</a>
           <ul>

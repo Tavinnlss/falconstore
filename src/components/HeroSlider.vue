@@ -12,7 +12,7 @@ const slides = [
   },
   {
     title: 'Do básico ao recado forte',
-    text: 'Roupas, tênis e óculos que fecham o look — do role à academia, sem perder a identidade.',
+    text: 'Roupas, tênis e óculos que fecham o look — do rolê à academia, sem perder a identidade.',
     cta: 'Ver roupas',
     href: '#roupas',
     image: '/img/slider03falcon.jpg',
@@ -65,7 +65,7 @@ onUnmounted(() => clearInterval(timer))
       <div class="actions">
         <a class="btn btn-blue" :href="slides[index].href">{{ slides[index].cta }}</a>
         <a class="btn btn-ghost" :href="whatsappLink('Olá! Gostaria de saber mais sobre os produtos disponíveis na loja. Poderiam me ajudar?')" target="_blank" rel="noopener">
-          Chama no Zap
+          Saber mais 
         </a>
       </div>
     </div>
