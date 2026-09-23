@@ -16,7 +16,7 @@ const benefits = [
         <p class="eyebrow">Só pra quem tá dentro</p>
         <h2>Grupo VIP da loja</h2>
         <p class="lead">
-          Entra no grupo e fica na frente: promoção, reposição e novidade chegam direto no seu celular.
+          Entre no grupo e fique na frente: promoções, reposições e novidades chegam direto no seu celular.
         </p>
         <a class="btn btn-blue" :href="store.vipGroupUrl" target="_blank" rel="noopener">
           Entrar no grupo VIP
