@@ -42,12 +42,12 @@ import { clothes, sneakers, glasses } from './data/catalog'
       subtitle="Acessório certo muda o recado."
       :items="glasses"
     />
+    <PromoSection />
     <StorePerks />
     <VipSection />
+    <LocationSection />
     <ReviewsSection />
     <AboutSection />
-    <PromoSection />
-    <LocationSection />
     <ContactSection />
   </main>
   <TheFooter />

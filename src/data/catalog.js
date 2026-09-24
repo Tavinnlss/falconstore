@@ -133,7 +133,7 @@ export const glasses = [
     image: '/img/oculosfalcon.png',
   },
   {
-    name: 'Cueca',
+    name: 'Cuecas',
     description: 'Conforto e qualidade para o dia a dia, com kits de 3 unidades e variedade de tamanhos para você escolher o ajuste ideal.',
     price: 'R$ 64,99 (3)',
     tag: 'Íntimo',
