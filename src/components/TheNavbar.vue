@@ -19,12 +19,10 @@ const navClass = computed(() => ({
 
 const links = [
   { href: '#categorias', label: 'Categorias' },
-  { href: '#roupas', label: 'Roupas' },
-  { href: '#tenis', label: 'Tênis' },
-  { href: '#acessorios', label: 'Acessórios' },
+  { href: '#promo', label: 'Promoção' },
   { href: '#vip', label: 'Grupo VIP' },
+  { href: '#local', label: 'Endereço' },
   { href: '#clientes', label: 'Clientes' },
-  { href: '#local', label: 'Local' },
 ]
 </script>
 
@@ -38,10 +36,11 @@ const links = [
         <a v-for="link in links" :key="link.href" :href="link.href" @click="menuOpen = false">
           {{ link.label }}
         </a>
+        <a class="link-sobre" href="#sobre" @click="menuOpen = false">Sobre nós</a>
       </nav>
 
-      <a class="btn btn-blue nav-cta" :href="whatsappLink()" target="_blank" rel="noopener">
-        Fale conosco
+      <a class="btn btn-blue nav-cta" href="#sobre">
+        Sobre nós
       </a>
 
       <button class="burger" :aria-expanded="menuOpen" aria-label="Menu" @click="menuOpen = !menuOpen">
@@ -112,6 +111,10 @@ const links = [
 
 .links a:hover {
   color: var(--white);
+}
+
+.link-sobre {
+  display: none;
 }
 
 .nav-cta {
@@ -187,6 +190,10 @@ const links = [
 @media (max-width: 520px) {
   .nav-cta {
     display: none;
+  }
+
+  .link-sobre {
+    display: block;
   }
 
   .imgLogo{

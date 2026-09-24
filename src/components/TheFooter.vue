@@ -12,6 +12,8 @@ import { store, whatsappLink } from '../config/store'
       <nav>
         <a href="#categorias">Categorias</a>
         <a href="#vip">Grupo VIP</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#promo">Desconto</a>
         <a href="#local">Cola pra fonte</a>
         <a :href="whatsappLink()" target="_blank" rel="noopener">WhatsApp</a>
         <a :href="store.instagram" target="_blank" rel="noopener">Instagram</a>
