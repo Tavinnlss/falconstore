@@ -110,7 +110,7 @@ export const sneakers = [
   },
   {
     name: 'Adidas',
-    description: 'Design moderno e conforto para acompanhar você em todos os momentos, com opções de modelos e tamanhos.',
+    description: 'Design moderno e conforto pra acompanhar você em todos os momentos, com opções de modelos e tamanhos.',
     price: 'R$ 149,99',
     tag: 'Casual',
     image: '/img/adidasfalcon.png',
