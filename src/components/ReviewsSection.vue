@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 /**
  * Nossos clientes — estilo avaliação Mercado Livre.
  * Edite foto, nome, data, estrelas e comentário direto no HTML abaixo.
@@ -20,7 +20,7 @@
       <div class="grid">
         <article class="card">
           <header>
-            <img src="/img/users/user01.jpeg" />
+            <img src="/img/users/user01.jpeg" alt="Gabriel Maia" />
             <div>
               <strong>Gabriel Maia</strong>
               <time>12 ago. 2026</time>

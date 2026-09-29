@@ -1,8 +1,9 @@
-<script setup>
+<script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue'
-import { store, whatsappLink } from '../config/store'
+import { store, whatsappLink } from '../config/site.config'
+import type { HeroSlide } from '../types'
 
-const slides = [
+const slides: HeroSlide[] = [
   {
     title: 'Pés no chão, estilo no alto',
     text: 'Tênis que aguentam o trampo e o fim de semana. Entrega pra todo o Brasil.',
@@ -24,24 +25,25 @@ const slides = [
     href: '#categorias',
     image: '/img/slider02falcon.jpg',
   },
- 
 ]
 
 const index = ref(0)
-let timer
+let timer: ReturnType<typeof setInterval> | undefined
 
-const go = (i) => {
+const restart = (): void => {
+  if (timer) clearInterval(timer)
+  timer = setInterval(() => go(index.value + 1), 5600)
+}
+
+const go = (i: number): void => {
   index.value = (i + slides.length) % slides.length
   restart()
 }
 
-const restart = () => {
-  clearInterval(timer)
-  timer = setInterval(() => go(index.value + 1), 5600)
-}
-
 onMounted(restart)
-onUnmounted(() => clearInterval(timer))
+onUnmounted(() => {
+  if (timer) clearInterval(timer)
+})
 </script>
 
 <template>

@@ -1,28 +1,14 @@
-<script setup>
-import roupasImage from "/img/cate01.jpg";
-import tenisImage from "/img/tenis01.jpg";
-import oculosImage from "/img/oculos01.jpg";
+<script setup lang="ts">
+import roupasImage from '/img/cate01.jpg'
+import tenisImage from '/img/tenis01.jpg'
+import oculosImage from '/img/oculos01.jpg'
+import type { Category } from '../types'
 
-const categories = [
-  {
-    id: "roupas",
-    name: "Roupas",
-    hint: "Casual → esportivo",
-    image: roupasImage,
-  },
-  {
-    id: "tenis",
-    name: "Tênis",
-    hint: "Rua e performance",
-    image: tenisImage,
-  },
-  {
-    id: "acessorios",
-    name: "Acessórios",
-    hint: "O detalhe do look",
-    image: oculosImage,
-  },
-];
+const categories: Category[] = [
+  { id: 'roupas', name: 'Roupas', hint: 'Casual → esportivo', image: roupasImage },
+  { id: 'tenis', name: 'Tênis', hint: 'Rua e performance', image: tenisImage },
+  { id: 'acessorios', name: 'Acessórios', hint: 'O detalhe do look', image: oculosImage },
+]
 </script>
 
 <template>

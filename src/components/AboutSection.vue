@@ -1,9 +1,9 @@
-<script setup>
+<script setup lang="ts">
 /**
  * Texto e foto são provisórios.
  * Trocar quando o cliente enviar o texto e a imagem oficiais.
  */
-import { store } from '../config/store'
+import { store } from '../config/site.config'
 </script>
 
 <template>
