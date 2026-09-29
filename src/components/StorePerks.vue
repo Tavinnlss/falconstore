@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const perks = [
   {
     title: 'Entrega para todo o Brasil',

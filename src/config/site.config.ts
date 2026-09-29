@@ -1,0 +1,21 @@
+import type { StoreConfig } from '../types'
+
+/**
+ * Configuração central da landing page.
+ * Nas próximas páginas, este arquivo deve concentrar os dados da empresa.
+ */
+export const store: StoreConfig = {
+  name: 'FALCON',
+  tagline: 'a fonte do estilo que se diferencia',
+  locationHook: 'Cola pra fonte',
+  phoneDisplay: '(31) 9 9670-1969',
+  whatsappNumber: '5531996701969',
+  vipGroupUrl: 'https://chat.whatsapp.com/BamTMGMHg4d3y7XWtMNsEa?s=cl&p=i&mlu=4',
+  address: 'Av. Marechal Castelo Branco, 76 - Centro, Teixeiras - MG, 36580-000, Brasil',
+  mapsQuery: 'Av. Marechal Castelo Branco, 76 - Centro, Teixeiras - MG, 36580-000',
+  instagram: 'https://www.instagram.com/_falconstoree/',
+}
+
+export const whatsappLink = (
+  text = 'Fala pessoal! Vim pelo site quero saber mais sobre os produtos, podem me ajudar ? ',
+): string => `https://wa.me/${store.whatsappNumber}?text=${encodeURIComponent(text)}`

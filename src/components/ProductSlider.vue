@@ -1,26 +1,37 @@
-<script setup>
+<script setup lang="ts">
 import { computed, ref } from 'vue'
-import { whatsappLink } from '../config/store'
+import { whatsappLink } from '../config/site.config'
+import type { Product } from '../types'
 
-const props = defineProps({
-  id: String,
-  eyebrow: String,
-  title: String,
-  subtitle: String,
-  items: { type: Array, required: true },
-  tone: { type: String, default: 'default' },
-})
+const props = withDefaults(
+  defineProps<{
+    id?: string
+    eyebrow?: string
+    title?: string
+    subtitle?: string
+    items: Product[]
+    tone?: 'default' | 'alt'
+  }>(),
+  {
+    id: undefined,
+    eyebrow: '',
+    title: '',
+    subtitle: '',
+    tone: 'default',
+  },
+)
 
-const track = ref(null)
+const track = ref<HTMLElement | null>(null)
 
-const ask = (item) =>
+const ask = (item: Product): string =>
   whatsappLink(`Fala pessoal! Quero saber sobre ${item.name}, podem me ajuda?`)
 
-const scrollByCards = (dir) => {
+const scrollByCards = (dir: number): void => {
   const el = track.value
   if (!el) return
-  const card = el.querySelector('.card')
-  const amount = (card?.offsetWidth || 280) + 16
+
+  const card = el.querySelector<HTMLElement>('.card')
+  const amount = (card?.offsetWidth ?? 280) + 16
   el.scrollBy({ left: dir * amount, behavior: 'smooth' })
 }
 

@@ -1,5 +1,5 @@
-<script setup>
-import { store, whatsappLink } from '../config/store'
+<script setup lang="ts">
+import { store, whatsappLink } from '../config/site.config'
 </script>
 
 <template>

@@ -1,11 +1,12 @@
-<script setup>
+<script setup lang="ts">
 import { computed, onMounted, onUnmounted, ref } from 'vue'
-import { store, whatsappLink } from '../config/store'
+import { store } from '../config/site.config'
+import type { NavLink } from '../types'
 
 const scrolled = ref(false)
 const menuOpen = ref(false)
 
-const onScroll = () => {
+const onScroll = (): void => {
   scrolled.value = window.scrollY > 12
 }
 
@@ -17,7 +18,7 @@ const navClass = computed(() => ({
   'is-open': menuOpen.value,
 }))
 
-const links = [
+const links: NavLink[] = [
   { href: '#categorias', label: 'Categorias' },
   { href: '#promo', label: 'Promoção' },
   { href: '#vip', label: 'Grupo VIP' },

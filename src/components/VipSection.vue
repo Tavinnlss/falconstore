@@ -1,5 +1,5 @@
-<script setup>
-import { store } from '../config/store'
+<script setup lang="ts">
+import { store } from '../config/site.config'
 
 const benefits = [
   { title: 'Alerta de promoções', text: 'Sabe primeiro quando o preço cai. Sem ficar caçando.' },

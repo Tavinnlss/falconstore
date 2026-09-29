@@ -1,6 +1,6 @@
-<script setup>
+<script setup lang="ts">
 import { computed } from 'vue'
-import { store } from '../config/store'
+import { store } from '../config/site.config'
 
 const mapsQuery = store.mapsQuery || store.address
 const mapsSrc = computed(

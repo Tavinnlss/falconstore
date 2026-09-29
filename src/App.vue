@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import TheNavbar from './components/TheNavbar.vue'
 import HeroSlider from './components/HeroSlider.vue'
 import CategoryGrid from './components/CategoryGrid.vue'

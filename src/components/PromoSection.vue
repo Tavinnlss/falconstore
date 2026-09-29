@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { nextTick, onUnmounted, ref } from 'vue'
 
 const open = ref(false)
