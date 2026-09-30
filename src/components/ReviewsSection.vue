@@ -30,7 +30,7 @@
           <div class="stars" aria-label="5 de 5">
             <span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span>
           </div>
-          <p>Curti demais a qualidade das peças. Chegou rápido e o tamanho ficou certinho. Com certeza vou comprar de novo.</p>
+          <p>Loja top , atendimento bom , indico d+ !!!</p>
         </article>
 
         <article class="card">
@@ -45,14 +45,14 @@
           <div class="stars" aria-label="5 de 5">
             <span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span>
           </div>
-          <p>Produtos muito bons e com bastante variedade. Peguei uma camiseta e uma bermuda e gostei bastante da qualidade.</p>
+          <p>Loja top demais,indico muito!</p>
         </article>
 
         <article class="card">
           <header>
-            <img src="/img/users/user03.jpeg" alt="Bianca S." />
+            <img src="/img/users/user03.jpg" alt="Bianca S." />
             <div>
-              <strong>Henrique Silva</strong>
+              <strong>Victor Mariano</strong>
               <time>28 jul. 2026</time>
             </div>
             <span class="badge">Compra verificada</span>
@@ -60,14 +60,14 @@
           <div class="stars" aria-label="4 de 5">
             <span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span><span>★</span>
           </div>
-          <p>Gostei muito da loja. As peças são estilosas, o preço é bom e o atendimento foi bem tranquilo.</p>
+          <p>Loja top, só peça de boa qualidade e preço bom</p>
         </article>
 
         <article class="card">
           <header>
-            <img src="/img/users/user04.jpeg" alt="Rafael T." />
+            <img src="/img/users/user04.jpg" alt="Rafael T." />
             <div>
-              <strong>Samuel Gomes.</strong>
+              <strong>Ariel Medina</strong>
               <time>19 jul. 2026</time>
             </div>
             <span class="badge">Compra verificada</span>
@@ -75,7 +75,7 @@
           <div class="stars" aria-label="5 de 5">
             <span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span>
           </div>
-          <p>Primeira compra e já virei cliente. Produto chegou certinho, bem embalado e a qualidade surpreendeu.</p>
+          <p>Loja de excelente qualidade! Estou lá toda semana, parabéns!</p>
         </article>
 
         <article class="card">
@@ -90,7 +90,7 @@
           <div class="stars" aria-label="5 de 5">
             <span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span>
           </div>
-          <p>Gostei bastante dos modelos e principalmente da variedade de tamanhos. A peça vestiu muito bem.</p>
+          <p>Só roupa de qualidade e preço justo!</p>
         </article>
 
         <article class="card">
@@ -105,7 +105,7 @@
           <div class="stars" aria-label="4 de 5">
             <span class="on">★</span><span class="on">★</span><span class="on">★</span><span class="on">★</span><span>★</span>
           </div>
-          <p>Loja top! Comprei um conjunto e um boné, gostei muito dos dois. Qualidade boa e entrega rápida.</p>
+          <p>Ótima loja, e com um ótimo atendimento.</p>
         </article>
       </div>
     </div>

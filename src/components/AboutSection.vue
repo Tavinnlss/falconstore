@@ -3,40 +3,46 @@
  * Texto e foto são provisórios.
  * Trocar quando o cliente enviar o texto e a imagem oficiais.
  */
-import { store } from '../config/store'
+import { store } from "../config/store";
 </script>
 
 <template>
   <section id="sobre" class="section about">
     <div class="container layout">
       <figure class="shot">
-        <img src="/img/slider02falcon.jpg" alt="Interior da loja Falcon, com araras e peças expostas" />
+        <img
+          src="/img/slider02falcon.jpg"
+          alt="Interior da loja Falcon, com araras e peças expostas"
+        />
       </figure>
 
       <div class="copy">
         <p class="eyebrow">Quem somos</p>
         <h2>Sobre nós</h2>
-        <p class="lead">
-          A {{ store.name }} é a fonte do estilo que se diferencia — na loja em Teixeiras e pra quem pede de longe.
-        </p>
+
         <p>
-          A loja existe pra quem quer montar o visual sem perder a identidade. Roupa, tênis e acessório no mesmo lugar, do casual do dia a dia até o corte mais esportivo.
-        </p>
-        <p>
-          O atendimento é de gente pra gente: a gente mostra o caimento, indica o tamanho e ajuda a fechar o look. Chegou na loja ou mandou mensagem, o recado é o mesmo — peça boa, preço justo e zero enrolação.
+          A Falcon Store nasceu em meados de 2022/2023, dentro de casa, com a
+          venda de camisas de time e o sonho de construir algo maior. Começamos
+          de forma totalmente online, com clientes realizando suas compras
+          diretamente em nossa casa. Entre desafios, aprendizados e muita
+          dedicação, em 2025 oficializamos nossa loja na garagem de casa. Hoje,
+          com um novo endereço e com uma nova estrutura seguimos crescendo e
+          oferecendo uma variedade de produtos de moda masculina, sempre com o
+          mesmo propósito: levar estilo, qualidade e atitude aos nossos
+          clientes.
         </p>
 
         <ul class="facts">
           <li>
             <strong>Teixeiras, MG</strong>
-            <span>Loja física no centro</span>
+            <span>Cola pra fonte</span>
           </li>
           <li>
             <strong>Brasil inteiro</strong>
-            <span>Entrega pra qualquer estado</span>
+            <span>Entregas para todo Brasil</span>
           </li>
           <li>
-            <strong>Um estilo só</strong>
+            <strong>Variedades</strong>
             <span>Casual, street e esportivo</span>
           </li>
         </ul>
@@ -48,7 +54,11 @@ import { store } from '../config/store'
 <style scoped>
 .about {
   background:
-    radial-gradient(700px 320px at 90% 10%, rgba(47, 107, 255, 0.14), transparent 60%),
+    radial-gradient(
+      700px 320px at 90% 10%,
+      rgba(47, 107, 255, 0.14),
+      transparent 60%
+    ),
     var(--black-soft);
 }
 
