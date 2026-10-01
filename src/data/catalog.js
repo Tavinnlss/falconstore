@@ -14,7 +14,7 @@ export const clothes = [
     image: '/img/camisasprem.png',
   },
   {
-    name: 'Oversized',
+    name: 'Oversizeds',
     description: 'Modelagem oversized, conforto e estilo urbano para compor diferentes looks, com variedade de cores, modelos, marcas e tamanhos.',
     price: 'R$ 84,99',
     tag: 'Casual',
@@ -88,28 +88,28 @@ export const clothes = [
 
 export const sneakers = [
   {
-    name: 'Nike',
+    name: 'Tênis Nike',
     description: 'Modelos para todos os estilos, do casual ao esportivo, com variedade de opções e tamanhos para você encontrar o que combina com você.',
     price: 'R$ 149,99',
     tag: 'Casual',
     image: '/img/gradetenis01.jpg',
   },
   {
-    name: 'PUMA',
+    name: 'Tênis PUMA',
     description: 'Visual limpo, conforto e variedade de modelos e tamanhos para combinar com o seu estilo.',
     price: 'R$ 149,99',
     tag: 'Casual',
     image: 'img/gradetenis02.jpg',
   },
   {
-    name: 'MIZUNO',
+    name: 'Tênis MIZUNO',
     description: 'Visual clean, conforto e aquele toque esportivo que combina com você, disponível em diversos modelos e tamanhos.',
     price: 'R$ 149,99',
     tag: 'Street',
     image: 'img/gradetenis03.png',
   },
   {
-    name: 'Adidas',
+    name: 'Tênis Adidas',
     description: 'Design moderno e conforto pra acompanhar você em todos os momentos, com opções de modelos e tamanhos.',
     price: 'R$ 149,99',
     tag: 'Casual',
@@ -119,7 +119,7 @@ export const sneakers = [
 
 export const glasses = [
   {
-    name: 'Bones',
+    name: 'Bonés',
     description: 'Estilo e personalidade para completar o visual, com variedade de marcas, modelos e opções para todos os estilos.',
     price: 'R$ 59,99',
     tag: 'Sol',

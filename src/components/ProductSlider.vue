@@ -14,7 +14,8 @@ const props = defineProps({
 const track = ref(null)
 
 const ask = (item) =>
-  whatsappLink(`Fala pessoal! Quero saber sobre ${item.name}, podem me ajuda?`)
+  whatsappLink(`Olá! Gostaria de conhecer os modelos disponíveis de ${item.name}. Podem me enviar as opções?
+`)
 
 const scrollByCards = (dir) => {
   const el = track.value
